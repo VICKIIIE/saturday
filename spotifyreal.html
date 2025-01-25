@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .navcontainer{
+                background-color: black;
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 200px;
+                padding: 20px;
+            }
+            .search{
+                background-color: gray;
+                border: none;
+                border-radius: 500px;
+                padding: 18px;
+                margin-bottom: 5px;
+            }
+            .navbuttons{
+                background-color: transparent;
+                border: none;
+                font-size: 14px;
+                display: block ;
+                color: gray;
+                padding: 12px;
+            }
+            .image1{
+                width: 200px;
+                height: 200px;
+            }
+            .content{
+                margin-left: ;
+
+            }
+            .info{
+                display: flex;
+                gap: 20px;
+            }
+            body{
+                background-color: black;
+            }
+            .stats{
+                color: rgb(179, 179, 179);
+            }
+            .follow{
+                background-color: green;
+                color: white;
+                padding: 7px 15px;
+                border-radius: 50px;
+                border: none;
+                cursor: pointer;
+                margin-right: 10px;
+            }
+            .follow:hover{
+                background-color: greenyellow;
+            }
+            .share{
+                background-color: transparent;
+                color: white;
+                padding: 7px 15px;
+                border-radius: 50px;
+                border-color: white;
+                border-style: solid;
+                cursor:pointer;
+            }
+            .share:hover{
+                background-color: gray;
+            }
+            .playlist{
+
+            }
+            .cardimage{
+                height: 200px;
+                width: 150px;
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- navigation container -->
+
+         <div class="navcontainer">
+         <input type="text" placeholder="search">
+         <button class="navbuttons">Home</button>
+         <button class="navbuttons">Your library</button>
+         <button class="navbuttons">Create playlists</button>
+         <button class="navbuttons">Liked songs</button>
+         </div>
+
+         <!-- content container -->
+
+         <div class="content">
+            <!--profile section -->
+            <div class="info">
+                <img class="image1" src="images/GKeg1p_W4AAMGCW.jpg">
+                <div>
+                    <p>Profile</p>
+                    <h1>John Doe</h1>
+                    <p class="stats"> 10 Public playlists, 245 followers</p>
+                    <button class="follow">FOLLOW</button>
+                    <button class="share">SHARE</button>
+                </div>
+            </div>
+        </div>
+        <div class="playlistsection">
+            <h2>Top playlists</h2>
+
+            <div>
+
+
+                <div>
+                    <img src="images/GKeg40pXYAA1nII.jpg">
+                    <h3>Chill vibes</h3>
+                    <p>Perfect for relocation</p>
+                </div>
+            </div>
+        </div>
+
+            <!-- playlists section -->
+    </body>
+</html>
