@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Victor's Portfolio</title>
+        <style>
+            .container1{
+                background-image: url(https://i.pinimg.com/474x/47/59/54/475954be4ca94657374d5bf3c69aff01.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                width: 100%;
+                height: 600px;
+                object-fit: cover;
+                color: white;
+            }
+            .header{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 20px;
+                align-items: center;
+            }
+            .h1{
+                margin: 50px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+            }     
+            .list{
+                display: flex;
+                gap: 20px;
+                color: white;
+                justify-content: flex-end;
+            }
+            .list a{
+                color: white;
+                font-size: 15px;
+                padding: 2px;
+                cursor: pointer;
+                display: block;
+            }
+            .list .dropdown{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                display: none;
+                min-width: 150px;
+            }
+            .list a:hover{
+                color: darkorange;
+            }
+            .h1:hover{
+                color: rgb(145, 94, 18);
+            }
+            .welcome{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                height: 300px;   
+                background-image: url(https://i.pinimg.com/474x/6e/7c/3d/6e7c3d2acefe39162cc1d803ef220c38.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            .midpart{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .button{
+                background-color: transparent;
+                color: white;
+                padding: 15px 30px;
+                border: solid;
+                font-size: 18px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all;
+            }
+            .button:hover{
+                background-color: blue;
+            }
+            .container2{
+               background-image: url(https://i.pinimg.com/474x/b9/32/ee/b932ee7fdb9f7dee906509aa05049069.jpg);
+               height: 480px;
+               width: 100%;
+               color: white;
+               text-align: center;
+               align-items: center;
+               justify-content: center;
+            }
+            .note{
+                color: blue;
+                cursor: pointer;
+            }
+            .note:hover{
+                color: goldenrod;
+            }
+            .nabangi{
+                font-style: italic;
+            }
+            .projects{
+                font-weight: bold;
+                cursor: pointer;
+            }
+            .projects:hover{
+                color: greenyellow;
+            }
+            .spotify:hover{
+                color: lightblue;
+            }
+            .website:hover{
+                color: aqua;
+            }
+            .chatapp:hover{
+                color: darkslategray;
+            }
+            .MAIN:hover{
+                color: blue;
+            }
+            .MAIN{
+                cursor: pointer;
+            }
+            .git{
+                padding: 7px 12px;
+                border: solid;
+                border-radius: 15px;
+                background-color: transparent;
+                color: green;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            .img1{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                border: 3px solid;
+                object-fit: cover;
+                margin-bottom: 15px
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+               </style>
+    </head>
+    <body>
+        <div class="container1">
+        <section>
+           <header class="header">
+            <h1 class="h1">VICTOR</h1>
+            <ul class="list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a>
+                <ul class="dropdown">
+                    <li><a href="#">Web Design</a>
+                        <li><a href="#">Marketing</a>
+                            <li><a href="#">SEO</a>
+                </ul>
+            </li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+           </header>
+        </section>
+        <div class="midpart">
+        <h3 class="welcome">WELCOME TO MY WEBSITE<br><br>
+        Victor Masinde</h3>
+        <button class="button">HIRE ME</button>
+    </div>
+</div>
+    <div class="container2">
+        <h3>WHO <span class="note">AM I</span>?</h3><br>
+       <p class="nabangi"> I'm Victor Nabangi, a passionate software developer with a deep love for building efficient, scalable and user-friendly applications.<br>I base in Web development that enhances user experience and streamline business operations.</p><br>
+       <section>
+       <h3 class="projects">PROJECTS</h3><br>
+       <ul class="projects">
+        <li class="spotify">Spotify Clone</li><br>
+        <li class="website">E-commerce Website</li><br>
+        <li class="chatapp">Real-Time Chat App</li><br>
+       </ul>
+    </section>
+       <section>
+       <h3 class="MAIN">MY GITHUB</h3><br>
+       <p>Check out my latest projects and contributions on Github!</p><br>
+       <a href="https://github.com/VICKIIIE" target="_blank"><img src="images/64880b9b0fe5b53bbe3f7280d262b33f.jpg" class="img1"  alt="Github Profile"></a>
+       <button class="git"><a href="https://github.com/VICKIIIE">Visit my Github</a></button>
+    </section>
+       </div>
+    </body>
+</html>
